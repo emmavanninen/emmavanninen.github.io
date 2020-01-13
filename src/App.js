@@ -1,22 +1,24 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+          <div><img src='./menu.png' className='menuicon'></img></div>
+        <p>Emma Vanninen</p>
         <a
           className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
+          href="#"
+        //   target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Scroll down
         </a>
       </header>
+        <section className='section section1'>BIO</section>
+        <section className='section section2'>WORKS</section>
+        <section className='section section3'>footer</section>
     </div>
   );
 }

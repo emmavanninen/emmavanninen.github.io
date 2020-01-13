@@ -2,22 +2,71 @@
   text-align: center;
 }
 
-
-
-
-
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #ffffff;
+  min-height: 93vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: black;
+}
+
+.menuicon {
+  height: 40px;
 }
 
 .App-link {
-  color: #61dafb;
+  color: grey;
 }
 
+.section {
+  min-height: 90vh;
+}
+
+.section1 {
+  position: relative;
+  text-align: center;
+  padding: 12px;
+  margin-bottom: 6px;
+  height: 60px;
+}
+.section1:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 50%;
+  background: rgb(230, 230, 230);
+  transform: skew(0deg, 8deg);
+}
+.section1:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 50%;
+  background: rgb(230, 230, 230);
+  transform: skew(0deg, -8deg);
+}
+
+.section3 {
+      background: rgb(230, 230, 230);
+      display: inline-block;
+      position: relative;
+      width: 100%;
+}
+
+.section3:before {
+      border-bottom: 35px solid rgb(230, 230, 230);
+      border-left: 50vw solid transparent;
+      border-right: 50vw solid transparent;
+      content: "";
+      height: 0;
+      left: 0;
+      position: absolute;
+      top: -35px;
+}
