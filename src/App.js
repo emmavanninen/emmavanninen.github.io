@@ -18,7 +18,7 @@ function App() {
       </header>
         <section className='section section1'>BIO</section>
         <section className='section section2'>WORKS</section>
-        <section className='section section3'>footer</section>
+        <section className='section3'>footer</section>
     </div>
   );
 }

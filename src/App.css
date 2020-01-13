@@ -54,6 +54,7 @@
 }
 
 .section3 {
+    height: 20vh;
       background: rgb(230, 230, 230);
       display: inline-block;
       position: relative;
