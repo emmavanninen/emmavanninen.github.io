@@ -2,6 +2,7 @@ import React from "react";
 import "./App.css";
 import Menu from "./components/Menu";
 import Bio from "./components/Bio";
+import ShortBio from "./components/ShortBio";
 
 function App() {
   return (
@@ -12,9 +13,11 @@ function App() {
       </header>
       <section className="section">
         <div className="section1"></div>
-        <Bio />
+        <ShortBio />
       </section>
-      <section className="section section2">WORKS</section>
+      <section className="section">WORKS</section>
+      <section className="section">
+      <Bio /></section>
       <section className="section3">footer</section>
     </div>
   );
