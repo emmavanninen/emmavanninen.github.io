@@ -1,0 +1,27 @@
+.works-main {
+    margin-top: 10rem;
+display: flex;
+flex-direction: column;
+}
+
+
+.card-deck { 
+width: 80vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+  margin-top: 20px;
+  width: 20em;
+  border: 1px solid black;
+}
+
+.card-img {
+  max-width: 100%;
+  /* height: 100%; */
+}

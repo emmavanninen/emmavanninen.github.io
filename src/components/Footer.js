@@ -5,16 +5,13 @@ export default class Footer extends Component {
     emailToggle: false
   };
 
-
-  handleEmailToggle =() => {
+  handleEmailToggle = () => {
     this.setState(prevState => {
-        return {
-            emailToggle: !prevState.emailToggle
-        }
+      return {
+        emailToggle: !prevState.emailToggle
+      };
     });
-  }
-
-
+  };
 
   render() {
     return (
@@ -24,7 +21,10 @@ export default class Footer extends Component {
         <div className="contact">
           <p>Contact Emma</p>
           <p>
-            email: <span className="email" onClick={this.handleEmailToggle}>emma.vanninen@gmail.com</span>
+            email:{" "}
+            <span className="email" onClick={this.handleEmailToggle}>
+              emma.vanninen@gmail.com
+            </span>
           </p>
           <p>tel. (+1) 437 5566944</p>
         </div>

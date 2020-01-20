@@ -1,10 +1,12 @@
 import React, { Component } from "react";
+import "../style/shortBio.css";
+
 
 export default class ShortBio extends Component {
   render() {
     return (
       <>
-        <div className="section2">
+        <div className="aboutme">
           <img
             src="./confused-emma.jpg"
             alt="confused emma"
