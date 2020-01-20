@@ -21,13 +21,20 @@ export default class Menu extends Component {
             src="./menu.png"
             className="menuicon"
             onClick={this.menuClickToggle}
+            alt="menu icon"
           ></img>
           {this.state.menuToggle ? (
-            <div>
-              <ul className="nav-list">
-                <li>Bio</li>
-                <li>Work</li>
-                <li>Contact</li>
+            <div className="nav-list">
+              <ul>
+                <li>
+                  <p>Bio</p>
+                </li>
+                <li>
+                  <p>Work</p>
+                </li>
+                <li>
+                  <p>Contact</p>
+                </li>
               </ul>
             </div>
           ) : (
