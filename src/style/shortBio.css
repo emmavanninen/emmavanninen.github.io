@@ -1,5 +1,6 @@
 .aboutme {
   padding: 60px;
+    padding-bottom: 8rem;
   display: flex;
   flex-direction: row;
   justify-content: space-around;

@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "../style/footer.css";
 
 export default class Footer extends Component {
   state = {

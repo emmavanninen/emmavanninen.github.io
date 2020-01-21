@@ -29,11 +29,11 @@ function App() {
         </div>
       </section>
       <section className="section">
-        <div className="section4">
+        <div className="section3">
           <Bio />
         </div>
       </section>
-      <section className="section5">
+      <section className="section4">
         <Footer />
       </section>
     </div>
