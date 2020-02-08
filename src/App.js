@@ -12,14 +12,16 @@ function App() {
     <div className="App">
       <header className="App-header">
         <Menu />
+
         <p className="nametitle">Emma Vanninen</p>
+        <p className='titletitle'>Full Stack Developer and UI/UX enthusiast</p>
         {/* <Link to="/short-bio"> */}
         <div className="scroll-down-icon">
           <img src="./down.png" alt="scroll down icon" />
         </div>
         {/* </Link> */}
       </header>
-      <section className="section">
+      <section className="section section1bg">
         <div className="section1"></div>
         <ShortBio />
       </section>

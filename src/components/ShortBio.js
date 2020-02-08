@@ -7,11 +7,11 @@ export default class ShortBio extends Component {
     return (
       <>
         <div className="aboutme">
-          <img
+          {/* <img
             src="./confused-emma.jpg"
             alt="confused emma"
             className="confused-emma"
-          ></img>
+          ></img> */}
           <div className="short-about">
             <h3>Who is she though?</h3>
             <p>

@@ -1,8 +1,8 @@
 .App-header {
   padding: 5%;
-  background-image: url("/temp_portfolio_bg.png");
+  background-image: url("/mainComputerPic.png");
   background-repeat: no-repeat;
-  background-size: 40%;
+  background-size: 50%;
   background-position: right;
   background-attachment: fixed;
   min-height: 78vh;
@@ -19,6 +19,14 @@
   grid-row: 3;
   font-family: "title";
   font-size: 3rem;
+}
+
+.titletitle {
+  width: fit-content;
+  grid-column: 1 / span 2;
+  grid-row: 3;
+  font-family: "title";
+  font-size: 1rem;
 }
 
 .nav {
@@ -91,7 +99,16 @@ li p:hover {
 }
 
 .section {
-  min-height: 90vh;
+  min-height: 100vh;
+}
+
+.section1bg {
+    height: 115vh;
+  background-image: url("/whoMe.png");
+  background-repeat: no-repeat;
+  background-size: 60%;
+  background-position: bottom left;
+  background-attachment: fixed;
 }
 
 .section1 {
@@ -133,17 +150,16 @@ li p:hover {
   transform: skew(0deg, -8deg);
 }
 
-.section2{
-    background: -webkit-linear-gradient(
+.section2 {
+  background: -webkit-linear-gradient(
     right,
     rgb(250, 250, 250),
     rgb(232, 240, 240),
     rgb(250, 250, 250)
   );
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
-
 
 @font-face {
   font-family: "title";
