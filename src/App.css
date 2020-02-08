@@ -4,7 +4,7 @@
   background-repeat: no-repeat;
   background-size: 50%;
   background-position: right;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   min-height: 78vh;
   display: grid;
   grid-template-columns: 10% 80% 10%;
@@ -13,12 +13,29 @@
   color: black;
 }
 
+.test {
+  z-index: -1;
+  margin-top: 95px;
+  margin-right: 145px;
+  justify-self: right;
+  width: 405px;
+  height: 235px;
+  grid-column: 2;
+  grid-row: 2;
+  background-image: url("/source.gif");
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+
+  transform: perspective(750px) rotateY(29deg) rotateZ(-20deg);
+}
+
 .nametitle {
   width: fit-content;
   grid-column: 1 / span 2;
   grid-row: 3;
   font-family: "title";
-  font-size: 3rem;
+  font-size: 100%;
 }
 
 .titletitle {
@@ -26,7 +43,7 @@
   grid-column: 1 / span 2;
   grid-row: 3;
   font-family: "title";
-  font-size: 1rem;
+  font-size: 50%;
 }
 
 .nav {
@@ -103,7 +120,7 @@ li p:hover {
 }
 
 .section1bg {
-    height: 115vh;
+  height: 115vh;
   background-image: url("/whoMe.png");
   background-repeat: no-repeat;
   background-size: 60%;
@@ -122,7 +139,7 @@ li p:hover {
 .section1:before {
   content: "";
   position: absolute;
-  margin-top: -41px;
+  margin-top: -60px;
   top: 0;
   left: 0;
   height: 100%;
@@ -137,7 +154,7 @@ li p:hover {
 .section1:after {
   content: "";
   position: absolute;
-  margin-top: -41px;
+  margin-top: -60px;
   top: 0;
   right: 0;
   height: 100%;

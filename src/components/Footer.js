@@ -30,7 +30,7 @@ export default class Footer extends Component {
           <p>tel. (+1) 437 5566944</p>
         </div>
         <div className="some">
-          <img src="./instagram.png" alt="ig" />
+          <img src="./github-image.png" alt="ig" />
           <img src="./linkedin.png" alt="li" />
         </div>
       </>
