@@ -1,22 +1,36 @@
 import React, { Component } from "react";
+import "./Menu.css";
 
 export default class Menu extends Component {
   state = {
-    menuToggle: false
+    menuToggle: false,
+    menuBGColor: null
   };
 
-  menuClickToggle = () => {
-    this.setState(prevState => {
+  menuClickToggle = async () => {
+    await this.setState(prevState => {
       return {
         menuToggle: !prevState.menuToggle
       };
     });
+    if (this.state.menuToggle) {
+      this.setState({
+          menuBGColor:"rgba(241, 247, 247, 0.671)"
+      });
+    } else if (!this.state.menuToggle) {
+      this.setState({
+        menuBGColor: null
+      });
+    }
   };
 
   render() {
     return (
       <>
-        <nav className="nav">
+        <nav
+          className="nav"
+          style={{ background: this.state.menuBGColor }}
+        >
           <img
             src="./menu.png"
             className="menuicon"

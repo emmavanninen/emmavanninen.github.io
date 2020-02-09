@@ -1,0 +1,63 @@
+.nav {
+  width: 150px;
+  height: 30vh;
+  border-radius: 5px;
+  position: fixed;
+  z-index: 10;
+  display: grid;
+  grid-template-columns: 20% 80%;
+  grid-template-rows: 30% 70%;
+  font-family: "title";
+}
+
+.menuicon {
+  margin: 5px;
+  filter: opacity(95%);
+  height: 30px;
+  grid-column: 1 / span 2;
+  grid-row: 1;
+}
+
+.menuicon:hover {
+  height: 32px;
+}
+.menuicon:active {
+  filter: opacity(0.4);
+  height: 32px;
+}
+
+.nav-list {
+  width: fit-content;
+  height: fit-content;
+  grid-column: 2;
+  grid-row: 2;
+  display: flex;
+  flex-direction: column;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  line-height: 2;
+}
+
+li p {
+  margin: 0;
+  margin-top: 5px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+li p:hover {
+  font-weight: 600;
+}
+li p:active {
+  font-weight: 600;
+  color: rgb(89, 107, 116);
+}
+
+@font-face {
+  font-family: "title";
+  src: url("/fonts/DJBHollyTyped2Much.ttf") format("truetype");
+}
