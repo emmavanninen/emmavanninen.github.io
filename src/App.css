@@ -5,7 +5,7 @@
   background-size: 50%;
   background-position: right;
   /* background-attachment: fixed; */
-  min-height: 78vh;
+  min-height: 80vh;
   display: grid;
   grid-template-columns: 10% 80% 10%;
   grid-template-rows: 10% 40% 50%;
@@ -13,37 +13,52 @@
   color: black;
 }
 
-.test {
+h3 {
+  font-family: "title";
+}
+
+.screen {
+  /* border: 1px solid white; */
   z-index: -1;
-  margin-top: 95px;
-  margin-right: 145px;
+  margin-top: 6%;
+  margin-right: 12.4%;
   justify-self: right;
-  width: 405px;
-  height: 235px;
+  width: 33.5%;
+  height: 88%;
   grid-column: 2;
   grid-row: 2;
-  background-image: url("/source.gif");
+  background-image: url("/giphy5.gif");
   background-repeat: no-repeat;
-  background-size: 100%;
-
-
+  background-position: center;
+  background-size: cover;
   transform: perspective(750px) rotateY(29deg) rotateZ(-20deg);
 }
 
 .nametitle {
+  font-weight: 100;
   width: fit-content;
   grid-column: 1 / span 2;
   grid-row: 3;
   font-family: "title";
-  font-size: 100%;
+  font-size: 200%;
+}
+.nametitleC {
+  font-weight: 100;
+  padding-top: 3%;
+  width: fit-content;
+  grid-column: 1 / span 2;
+  grid-row: 3;
+  font-family: "title";
+  font-size: 150%;
 }
 
 .titletitle {
+  font-weight: 100;
   width: fit-content;
   grid-column: 1 / span 2;
   grid-row: 3;
   font-family: "title";
-  font-size: 50%;
+  font-size: 80%;
 }
 
 .nav {
@@ -72,10 +87,8 @@
   height: fit-content;
   grid-column: 2;
   grid-row: 2;
-  /* background-color: teal; */
   display: flex;
   flex-direction: column;
-  /* text-align: left; */
 }
 
 ul {
@@ -139,30 +152,30 @@ li p:hover {
 .section1:before {
   content: "";
   position: absolute;
-  margin-top: -60px;
+  margin-top: -70px;
   top: 0;
   left: 0;
   height: 100%;
   width: 50%;
   background: -webkit-linear-gradient(
     left,
-    rgb(250, 250, 250),
-    rgb(232, 240, 240)
+    rgb(247, 253, 253),
+    rgb(240, 247, 247)
   );
   transform: skew(0deg, 8deg);
 }
 .section1:after {
   content: "";
   position: absolute;
-  margin-top: -60px;
+  margin-top: -70px;
   top: 0;
   right: 0;
   height: 100%;
   width: 50%;
   background: -webkit-linear-gradient(
     right,
-    rgb(250, 250, 250),
-    rgb(232, 240, 240)
+    rgb(247, 253, 253),
+    rgb(240, 247, 247)
   );
   transform: skew(0deg, -8deg);
 }
@@ -170,8 +183,8 @@ li p:hover {
 .section2 {
   background: -webkit-linear-gradient(
     right,
-    rgb(250, 250, 250),
-    rgb(232, 240, 240),
+    rgb(247, 253, 253),
+    rgb(240, 247, 247),
     rgb(250, 250, 250)
   );
   display: flex;
@@ -180,5 +193,5 @@ li p:hover {
 
 @font-face {
   font-family: "title";
-  src: url("/fonts/vilamadalena.otf") format("truetype");
+  src: url("/fonts/DJBHollyTyped2Much.ttf") format("truetype");
 }
