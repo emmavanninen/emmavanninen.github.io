@@ -15,7 +15,7 @@ export default class Menu extends Component {
     });
     if (this.state.menuToggle) {
       this.setState({
-          menuBGColor:"rgba(241, 247, 247, 0.671)"
+          menuBGColor:"rgba(241, 247, 247, 0.863)"
       });
     } else if (!this.state.menuToggle) {
       this.setState({

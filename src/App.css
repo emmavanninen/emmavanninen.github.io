@@ -84,7 +84,8 @@ h3 {
 }
 
 .section {
-  min-height: 100vh;
+  min-height: 70vh;
+  height: fit-content;
 }
 
 .section1bg {
