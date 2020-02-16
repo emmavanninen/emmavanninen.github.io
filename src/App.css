@@ -1,5 +1,6 @@
-:root{
-    background-color: white;
+:root {
+  background-color: white;
+  font-weight: 200;
 }
 
 .App-header {
@@ -84,7 +85,7 @@ h3 {
 }
 
 .section {
-  min-height: 70vh;
+  min-height: 50vh;
   height: fit-content;
 }
 
@@ -145,6 +146,11 @@ h3 {
   );
   display: flex;
   justify-content: center;
+}
+
+.section3 {
+  height: fit-content;
+  padding-bottom: 1vh;
 }
 
 @font-face {

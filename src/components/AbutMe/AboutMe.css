@@ -1,19 +1,24 @@
 .bio {
   display: flex;
   flex-direction: column;
-  margin: 10rem;
+  align-items: center;
+  height: fit-content;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+}
+
+.bio h3 {
+    width: 70%;
 }
 
 .story-para {
+  width: 60vw;
   display: grid;
   grid-template-rows: 50% 50%;
-  height: 200px;
 }
 
 .bio-story {
   grid-row: 1;
-  overflow: hidden;
-  height: 160px;
 }
 
 .readmore {
@@ -26,5 +31,11 @@
 }
 
 .readmore p {
+  margin: 0;
+  margin-left: 20px;
   cursor: pointer;
+}
+
+.readmore p:hover {
+  font-weight: 300;
 }

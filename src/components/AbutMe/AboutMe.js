@@ -1,27 +1,38 @@
-import React, { Component } from "react";
-import "./AboutMe.css";
+import React, { Component } from "react"
+import "./AboutMe.css"
 
 export default class Bio extends Component {
   state = {
-    toggleReadMore: false
-  };
+    toggleReadMore: false,
+    height1: "200px",
+    overflow: "hidden",
+    height2: "160px"
+  }
 
   handleReadMore = () => {
     this.setState(prevState => {
       return {
-        toggleReadMore: !prevState.toggleReadMore
-      };
-    });
-    console.log(this.state.toggleReadMore);
-    
-  };
+        toggleReadMore: !prevState.toggleReadMore,
+        height1: "fit-content",
+        overflow: "visible",
+        height2: "fit-content"
+      }
+    })
+    console.log(this.state.toggleReadMore)
+  }
 
   render() {
     return (
       <div className="bio">
         <h3>MY STORY</h3>
-        <div className="story-para">
-          <div className="bio-story">
+        <div className="story-para" style={{ height: this.state.height1 }}>
+          <div
+            className="bio-story"
+            style={{
+              overflow: this.state.overflow,
+              height: this.state.height2
+            }}
+          >
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis
             sint quaerat dolor itaque nam? Illum quaerat similique sunt aut, id
             cupiditate quas, ipsa accusantium sint saepe, deserunt fuga
@@ -64,11 +75,16 @@ export default class Bio extends Component {
             atque aperiam inventore amet similique voluptas? Obcaecati,
             necessitatibus! Vero praesentium error soluta ea?
           </div>
-          <div className="readmore">
-            <p onClick={this.handleReadMore}>Read more...</p>
-          </div>
+
+          {this.state.toggleReadMore ? (
+            ""
+          ) : (
+            <div className="readmore">
+              <p onClick={this.handleReadMore}>Read more...</p>
+            </div>
+          )}
         </div>
       </div>
-    );
+    )
   }
 }

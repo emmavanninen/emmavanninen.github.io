@@ -5,7 +5,6 @@ import AboutMe from "./components/AbutMe/AboutMe";
 import Bio from "./components/Bio/Bio";
 import Works from "./components/Works/Works";
 import Footer from "./components/Footer/Footer";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 function App() {
   return (
