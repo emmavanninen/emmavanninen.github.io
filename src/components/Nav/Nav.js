@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 import './Nav.css'
 
 export default class Nav extends Component {
@@ -28,7 +29,10 @@ export default class Nav extends Component {
     return (
       <>
         <nav className='nav'>
-                <div className='menuicon' style={{ background: this.state.menuBGColor }}>
+          <div
+            className='menuicon'
+            style={{ background: this.state.menuBGColor }}
+          >
             <img
               src='./menu.png'
               onClick={this.menuClickToggle}
@@ -41,15 +45,33 @@ export default class Nav extends Component {
                 className='nav-list'
                 style={{ background: this.state.menuBGColor }}
               >
-                <ul>
+                <ul onClick={this.menuClickToggle}>
                   <li>
-                    <p>Who am I?</p>
+                    <AnchorLink href='#bioID'>
+                      {' '}
+                      Who am I?
+                    </AnchorLink>
                   </li>
                   <li>
-                    <p>My Work</p>
+                    <AnchorLink href='#worksID'>
+                      My Work
+                    </AnchorLink>
                   </li>
                   <li>
-                    <p>Contact</p>
+                    <AnchorLink href='#aboutmeID'>
+                      My story
+                    </AnchorLink>
+                  </li>
+                  <li>
+                    <AnchorLink href='#footerID'>
+                      Contact
+                    </AnchorLink>
+                  </li>
+                  <li>
+                    <AnchorLink href='#headerID'>
+                      {' '}
+                      Back to the top
+                    </AnchorLink>
                   </li>
                 </ul>
               </div>

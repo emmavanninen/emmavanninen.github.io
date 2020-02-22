@@ -1,25 +1,23 @@
-import React, { Component } from "react"
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom"
+import React, { Component } from 'react'
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 export default class Header extends Component {
   render() {
     return (
-      <div className="header">
-          <div className='topbg'></div>
-        <div className="hed1">
-          <p className="nametitleC">EMMA VANNINEN</p>
-          <p className="titletitle">Full Stack Developer</p>
-          {/* <Link to="/short-bio"> */}
-          <div className="scroll-down-icon">
-            <img src="./down.png" alt="scroll down icon" />
-          </div>
-          {/* </Link> */}
-        </div>
+      <header className='App-header' id='headerID'>
+        <div className='background2'></div>
+        <div className='screen'></div>
 
-        <div className="headerbg"></div>
-        <div className="headerbgscreen"></div>
-            <div className='bottombg'></div>
-      </div>
+        <div className='headerTitles'>
+          <p className='nameTitle'>EMMA VANNINEN</p>
+          <p className='subTitle'>Full Stack Developer</p>
+        </div>
+        <div className='scroll-down-icon'>
+          <AnchorLink href='#bioID'>
+            <img src='./down.png' alt='scroll down icon' />
+          </AnchorLink>
+        </div>
+      </header>
     )
   }
 }

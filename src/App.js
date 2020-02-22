@@ -1,48 +1,23 @@
-import React from 'react'
+import React, { Component } from 'react'
 import './App.css'
 import Nav from './components/Nav/Nav'
-import AboutMe from './components/AbutMe/AboutMe'
+import Header from './components/Header/Header'
 import Bio from './components/Bio/Bio'
 import Works from './components/Works/Works'
+import AboutMe from './components/AboutMe/AboutMe'
 import Footer from './components/Footer/Footer'
 
-function App() {
-  return (
-    <div className='App'>
-      <Nav />
-      <header className='App-header'>
-        <div className='background2'></div>
-        <div className='screen'></div>
-
-        <div className='headerTitles'>
-          <p className='nameTitle'>EMMA VANNINEN</p>
-          <p className='subTitle'>Full Stack Developer</p>
-        </div>
-        {/* <Link to="/short-bio"> */}
-        <div className='scroll-down-icon'>
-          <img src='./down.png' alt='scroll down icon' />
-        </div>
-        {/* </Link> */}
-      </header>
-      <section className='section section1bg'>
-        <div className='section1'></div>
+export default class App extends Component {
+  render() {
+    return (
+      <div className='App'>
+        <Nav />
+        <Header />
         <Bio />
-      </section>
-      <section className='section'>
-        <div className='section2'>
-          <Works />
-        </div>
-      </section>
-      <section className='section'>
-        <div className='section3'>
-          <AboutMe />
-        </div>
-      </section>
-      <section className='section4'>
-        <Footer />
-      </section>
-    </div>
-  )
+        <Works />
+        <AboutMe />
+        <Footer/>
+      </div>
+    )
+  }
 }
-
-export default App
