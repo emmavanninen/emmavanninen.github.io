@@ -150,6 +150,9 @@ h3 {
     rgb(240, 247, 247),
     rgb(250, 250, 250)
   );
+  /* background-color: rgb(240, 247, 247);
+    background-image: url('/binaryEmmaVanninen.png');
+  background-repeat: repeat; */
   display: flex;
   justify-content: center;
 }

@@ -47,31 +47,19 @@ export default class Nav extends Component {
               >
                 <ul onClick={this.menuClickToggle}>
                   <li>
-                    <AnchorLink href='#bioID'>
-                      {' '}
-                      Who am I?
-                    </AnchorLink>
+                    <AnchorLink href='#bioID'> Who am I?</AnchorLink>
                   </li>
                   <li>
-                    <AnchorLink href='#worksID'>
-                      My Work
-                    </AnchorLink>
+                    <AnchorLink href='#worksID'>My Work</AnchorLink>
                   </li>
                   <li>
-                    <AnchorLink href='#aboutmeID'>
-                      My story
-                    </AnchorLink>
+                    <AnchorLink href='#aboutmeID'>My story</AnchorLink>
                   </li>
                   <li>
-                    <AnchorLink href='#footerID'>
-                      Contact
-                    </AnchorLink>
+                    <AnchorLink href='#footerID'>Contact</AnchorLink>
                   </li>
                   <li>
-                    <AnchorLink href='#headerID'>
-                      {' '}
-                      Back to the top
-                    </AnchorLink>
+                    <AnchorLink href='#headerID'> Back to the top</AnchorLink>
                   </li>
                 </ul>
               </div>

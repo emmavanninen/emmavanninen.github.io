@@ -27,8 +27,15 @@ export default class Bio extends Component {
               <div className='resume'>Resume</div>
               <br />
               <div className='some'>
-                <img src='./github-image.png' alt='ig' />
-                <img src='./linkedin.png' alt='li' />
+                <a href='https://github.com/emmavanninen' target='_blank'>
+                  <img src='./github-image.png' alt='ig' />
+                </a>
+                <a
+                  href='https://www.linkedin.com/in/emmavanninen/'
+                  target='_blank'
+                >
+                  <img src='./linkedin.png' alt='li' />
+                </a>
               </div>
             </div>
           </div>
