@@ -1,7 +1,7 @@
-import React, { Component } from "react"
-import "./Menu.css"
+import React, { Component } from 'react'
+import './Nav.css'
 
-export default class Menu extends Component {
+export default class Nav extends Component {
   state = {
     menuToggle: false,
     menuBGColor: null
@@ -15,7 +15,7 @@ export default class Menu extends Component {
     })
     if (this.state.menuToggle) {
       this.setState({
-        menuBGColor: "rgba(234, 247, 247, 0.945)"
+        menuBGColor: 'rgba(234, 247, 247, 0.945)'
       })
     } else if (!this.state.menuToggle) {
       this.setState({
@@ -27,18 +27,18 @@ export default class Menu extends Component {
   render() {
     return (
       <>
-        <nav className="nav">
-          <img
-            src="./menu.png"
-            className="menuicon"
-            onClick={this.menuClickToggle}
-            alt="menu icon"
-          ></img>
+        <nav className='nav'>
+                <div className='menuicon' style={{ background: this.state.menuBGColor }}>
+            <img
+              src='./menu.png'
+              onClick={this.menuClickToggle}
+              alt='menu icon'
+            ></img>
+          </div>
           {this.state.menuToggle ? (
             <>
-              {/* <div className="blackened"></div> */}
               <div
-                className="nav-list"
+                className='nav-list'
                 style={{ background: this.state.menuBGColor }}
               >
                 <ul>
@@ -55,7 +55,7 @@ export default class Menu extends Component {
               </div>
             </>
           ) : (
-            ""
+            ''
           )}
         </nav>
       </>

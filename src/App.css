@@ -3,27 +3,37 @@
   font-weight: 200;
 }
 
+.App{
+    
+}
+
 .App-header {
-  padding: 5%;
-  background-image: url("/mainComputerPic.png");
+  background-image: url('/mainComputerPic.png');
   background-repeat: no-repeat;
-  background-size: 50%;
-  background-position: right;
-  /* background-attachment: fixed; */
-  min-height: 80vh;
+  background-size: 50%, 100%;
+  background-position: right, center;
+  background-attachment: fixed;
+  min-height: 100vh;
   display: grid;
-  grid-template-columns: 10% 80% 10%;
-  grid-template-rows: 10% 40% 50%;
+  grid-template-columns: 15% 70% 15%;
+  grid-template-rows: 10% 10% 80%;
   font-size: calc(10px + 2vmin);
   color: black;
 }
 
-h3 {
-  font-family: "title";
+
+.background2 {
+  z-index: -1;
+  grid-column: 1 / span 3;
+  grid-row: 1 / span 3;
+  background-image: url('/markus-spiske-Fa0pTKuoDVY-unsplash.jpeg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
-.screen {
-  /* border: 1px solid white; */
+/* ? screen gif behind laptop but doesn't work responsive */
+/* .screen {
   z-index: -1;
   margin-top: 6%;
   margin-right: 12.4%;
@@ -37,51 +47,50 @@ h3 {
   background-position: center;
   background-size: cover;
   transform: perspective(750px) rotateY(29deg) rotateZ(-20deg);
+} */
+
+.headerTitles {
+  grid-column: 2 / span 2;
+  grid-row: 3;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.nametitle {
+.nameTitle {
   font-weight: 100;
-  width: fit-content;
-  grid-column: 1 / span 2;
-  grid-row: 3;
-  font-family: "title";
-  font-size: 200%;
-}
-.nametitleC {
-  font-weight: 100;
-  padding-top: 3%;
-  width: fit-content;
-  grid-column: 1 / span 2;
-  grid-row: 3;
-  font-family: "title";
-  font-size: 150%;
+  font-family: 'title';
+  font-size: 1.5em;
 }
 
-.titletitle {
+.subTitle {
+  padding-left: 2vw;
   font-weight: 100;
-  width: fit-content;
-  grid-column: 1 / span 2;
-  grid-row: 3;
-  font-family: "title";
-  font-size: 80%;
+  font-family: 'title';
+  font-size: 1em;
 }
 
 .scroll-down-icon {
+  height: fit-content;
   grid-column: 2;
   grid-row: 3;
+  margin-bottom: 5vh;
   display: flex;
   justify-content: center;
-  align-items: flex-end;
+  align-self: flex-end;
 }
 
 .scroll-down-icon img {
-  filter: opacity(65%);
-  width: 40px;
+    
+  filter: opacity(90%);
+  width: 50px;
 }
 
 .scroll-down-icon img:hover {
-  filter: opacity(90%);
-  width: 50px;
+  border: 1px solid greenyellow;
+  filter: opacity(70%);
+  width: 55px;
 }
 
 .section {
@@ -91,7 +100,7 @@ h3 {
 
 .section1bg {
   height: 115vh;
-  background-image: url("/whoMe.png");
+  background-image: url('/whoMe.png');
   background-repeat: no-repeat;
   background-size: 60%;
   background-position: bottom left;
@@ -107,7 +116,7 @@ h3 {
 }
 
 .section1:before {
-  content: "";
+  content: '';
   position: absolute;
   margin-top: -70px;
   top: 0;
@@ -122,7 +131,7 @@ h3 {
   transform: skew(0deg, 8deg);
 }
 .section1:after {
-  content: "";
+  content: '';
   position: absolute;
   margin-top: -70px;
   top: 0;
@@ -154,6 +163,6 @@ h3 {
 }
 
 @font-face {
-  font-family: "title";
-  src: url("/fonts/DJBHollyTyped2Much.ttf") format("truetype");
+  font-family: 'title';
+  src: url('/fonts/DJBHollyTyped2Much.ttf') format('truetype');
 }
