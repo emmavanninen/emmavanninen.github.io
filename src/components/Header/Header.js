@@ -9,8 +9,8 @@ export default class Header extends Component {
         <div className='screen'></div>
 
         <div className='headerTitles'>
-          <p className='nameTitle'>EMMA VANNINEN</p>
-          <p className='subTitle'>Full Stack Developer</p>
+          <p className='nameTitle'>Emma Vanninen</p>
+                <p className='subTitle'><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>&nbsp;Full Stack Developer&nbsp;<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p>
         </div>
         <div className='scroll-down-icon'>
           <AnchorLink href='#bioID'>

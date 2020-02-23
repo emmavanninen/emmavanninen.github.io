@@ -40,6 +40,9 @@ export default function TempNav() {
       onKeyDown={toggleDrawer(side, false)}
     >
       <List>
+        <div className='closeMenu'>
+          <img src='./cancel.png' alt='close menu icon'></img>
+        </div>
         <ul className='nav-list'>
           <li>
             <AnchorLink href='#bioID'> Who am I?</AnchorLink>
@@ -53,7 +56,7 @@ export default function TempNav() {
           <li>
             <AnchorLink href='#footerID'>Contact</AnchorLink>
           </li>
-          <li>
+          <li className='topA'>
             <AnchorLink href='#headerID'> Back to the top</AnchorLink>
           </li>
         </ul>

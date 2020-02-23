@@ -40,16 +40,14 @@
   font-size: 15px;
 }
 .card-body h5 {
-  padding-left: 10px;
-  font-family: 'title';
+    margin: 2vh;
+  padding-left: 1vw;
+  font-family: 'font1';
+  font-size: 1.5em;
+  font-weight: 100;
 }
 
 .card-img {
   border: 1px solid rgb(46, 47, 48);
   max-width: 100%;
-}
-
-@font-face {
-  font-family: 'title';
-  src: url('/fonts/DJBHollyTyped2Much.ttf') format('truetype');
 }
