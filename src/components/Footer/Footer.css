@@ -1,8 +1,10 @@
 .section4 {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  height: 20vh;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 50vh;
+  height: fit-content;
   background: #f1f8f7;
   position: relative;
   width: 100%;
@@ -12,18 +14,74 @@
   border-bottom: 35px solid #f1f8f7;
   border-left: 50vw solid transparent;
   border-right: 50vw solid transparent;
-  content: "";
+  content: '';
   height: 0;
   left: 0;
   position: absolute;
   top: -35px;
 }
 
-.contact {
-  padding-left: 50px;
+.emailForm {
+  font-family: 'font1';
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  height: 40vh;
+  width: 15vw;
+}
+
+.emailForm h5 {
+  font-weight: 100;
+  font-size: 1.5em;
+  margin-bottom: 1vh;
+}
+
+input {
+  min-height: 2vh;
+  height: fit-content;
+  padding-top: 0.7vh;
+  font-family: 'font1';
+  font-size: 0.8em;
+  border-radius: 2px;
+  border: 1px solid rgba(186, 186, 186, 0.79);
+}
+
+textarea {
+  padding-top: 1vh;
+  font-family: 'font1';
+  font-size: 0.8em;
+  border-radius: 2px;
+  border: 1px solid rgba(186, 186, 186, 0.79);
+  height: 40%;
+  resize: none;
+}
+
+input:focus {
+  outline: none;
+}
+
+textarea:focus {
+  outline: none;
+}
+
+.sendButton {
+  text-align: center;
+  height: fit-content;
+  /* font-size: 1em; */
+  align-self: center;
+  width: fit-content;
+}
+
+.sendButton:hover {
+  box-shadow: 1px 1px 5px rgba(186, 186, 186, 0.79),
+    -1px -1px 5px rgba(186, 186, 186, 0.79);
+}
+
+.contact {
+  height: 10vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .contact p {
@@ -31,13 +89,10 @@
 }
 
 .some {
-  padding-right: 20px;
-  width: 100px;
+  height: fit-content;
+  width: 10vw;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-}
-.some img {
-  height: 40px;
 }

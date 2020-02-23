@@ -168,6 +168,14 @@ h3 {
   padding-bottom: 1vh;
 }
 
+.some img {
+  filter: brightness(0.1);
+  height: 4em;
+}
+.some img:hover {
+  filter: brightness(0.3);
+}
+
 @font-face {
   font-family: 'font1';
   src: url('/fonts/Aristotelica-Display-ExtraLight-trial.ttf')

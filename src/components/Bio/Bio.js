@@ -28,7 +28,7 @@ export default class Bio extends Component {
               <br />
               <div className='some'>
                 <a href='https://github.com/emmavanninen' target='_blank'>
-                  <img src='./github-image.png' alt='ig' />
+                  <img src='./github.png' alt='gh' />
                 </a>
                 <a
                   href='https://www.linkedin.com/in/emmavanninen/'

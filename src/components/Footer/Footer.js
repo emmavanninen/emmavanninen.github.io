@@ -18,22 +18,59 @@ export default class Footer extends Component {
     return (
       <>
         <section className='section4' id='footerID'>
+          <form className='emailForm' onSubmit={this.handleSenEmail}>
+            <h5>Email me</h5>
+            <label>
+              <input
+                type='email'
+                name='email'
+                value={this.state.email}
+                onChange={this.handleChange}
+                placeholder='Your email'
+              />
+            </label>
+            <label>
+              <input
+                type='text'
+                name='subject'
+                value={this.state.subject}
+                onChange={this.handleChange}
+                placeholder='Subject'
+              />
+            </label>
+            <textarea
+              className='emailInput'
+              name='email'
+              value={this.state.email}
+              onChange={this.handleChange}
+              placeholder='Message...'
+            />
+            <br />
+            <input className='sendButton' type='submit' value='Send' />
+          </form>
           {this.state.emailToggle ? <div>poop</div> : ''}
 
           <div className='contact'>
-            <p>Contact Emma</p>
+            <p>Contact</p>
             <p>
-              email:{' '}
-              <span className='email' onClick={this.handleEmailToggle}>
+              Email:{' '}
+              <span className='email'>
                 emma.vanninen@gmail.com
               </span>
             </p>
             <p>tel. (+1) 437 5566944</p>
           </div>
-          <div className='some'>
-            <img src='./github-image.png' alt='ig' />
-            <img src='./linkedin.png' alt='li' />
-          </div>
+                <div className='some'>
+                    <a href='https://github.com/emmavanninen' target='_blank'>
+                        <img src='./github.png' alt='gh' />
+                    </a>
+                    <a
+                        href='https://www.linkedin.com/in/emmavanninen/'
+                        target='_blank'
+                    >
+                        <img src='./linkedin.png' alt='li' />
+                    </a>
+                </div>
         </section>
       </>
     )
