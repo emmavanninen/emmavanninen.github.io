@@ -13,7 +13,6 @@ export default class App extends Component {
     return (
       <div className='App'>
           <TempNav/>
-        {/* <Nav /> */}
         <Header />
         <Bio />
         <Works />

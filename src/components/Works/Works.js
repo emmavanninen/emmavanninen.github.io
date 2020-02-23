@@ -19,8 +19,8 @@ export default class Works extends Component {
                     unde voluptates, ipsa id consectetur culpa, rerum ullam quia
                     tempore cumque ratione in.
                   </div>
-                  <a href='#' className='work-link'>
-                    Go to the work
+                  <a href='!#' target='_blank' className='work-link'>
+                    Check it out
                   </a>
                 </div>
               </div>
@@ -34,8 +34,8 @@ export default class Works extends Component {
                     unde voluptates, ipsa id consectetur culpa, rerum ullam quia
                     tempore cumque ratione in.
                   </div>
-                  <a href='#' className='work-link'>
-                    Go to the work
+                  <a href='!#' target='_blank' className='work-link'>
+                    Check it out
                   </a>
                 </div>
               </div>
@@ -49,8 +49,8 @@ export default class Works extends Component {
                     unde voluptates, ipsa id consectetur culpa, rerum ullam quia
                     tempore cumque ratione in.
                   </div>
-                  <a href='#' className='work-link'>
-                    Go to the work
+                  <a href='!#' target='_blank' className='work-link'>
+                    Check it out
                   </a>
                 </div>
               </div>
@@ -64,8 +64,8 @@ export default class Works extends Component {
                     unde voluptates, ipsa id consectetur culpa, rerum ullam quia
                     tempore cumque ratione in.
                   </div>
-                  <a href='#' className='work-link'>
-                    Go to the work
+                  <a href='!#' target='_blank' className='work-link'>
+                    Check it out
                   </a>
                 </div>
               </div>
@@ -79,8 +79,8 @@ export default class Works extends Component {
                     unde voluptates, ipsa id consectetur culpa, rerum ullam quia
                     tempore cumque ratione in.
                   </div>
-                  <a href='#' className='work-link'>
-                    Go to the work
+                  <a href='!#' target='_blank' className='work-link'>
+                    Check it out
                   </a>
                 </div>
               </div>
@@ -94,8 +94,8 @@ export default class Works extends Component {
                     unde voluptates, ipsa id consectetur culpa, rerum ullam quia
                     tempore cumque ratione in.
                   </div>
-                  <a href='#' className='work-link'>
-                    Go to the work
+                  <a href='!#' target='_blank' className='work-link'>
+                    Check it out
                   </a>
                 </div>
               </div>
