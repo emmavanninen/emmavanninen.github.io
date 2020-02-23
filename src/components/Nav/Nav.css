@@ -14,6 +14,7 @@
 } */
 
 .menuicon {
+       /* background-color: rgba(234, 247, 247, 0.762); */
   z-index: 5;
   position: fixed;
   padding-top: 5vh;

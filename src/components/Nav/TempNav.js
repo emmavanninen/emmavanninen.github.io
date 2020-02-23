@@ -9,9 +9,10 @@ const useStyles = makeStyles({
   list: {
     width: '20vw',
     height: '100vh',
-    backgroundColor: 'rgba(234, 247, 247, 0.945)',
+    backgroundColor: 'rgba(234, 247, 247, 0.762)',
     backgroundImage: 'url(/binaryEmmaVanninen.png)',
-    backgroundRepeat: 'repeat'
+    backgroundRepeat: 'repeat',
+    backgroundSize: '100%'
   }
 })
 
@@ -69,7 +70,7 @@ export default function TempNav() {
       <div onClick={toggleDrawer('left', true)} className='menuicon'>
         <img src='./menu.png' alt='menu icon'></img>
       </div>
-      <Drawer open={state.left} onClose={toggleDrawer('left', false)} >
+      <Drawer open={state.left} onClose={toggleDrawer('left', false)}>
         {navList('left')}
       </Drawer>
     </div>
