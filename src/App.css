@@ -17,7 +17,7 @@ h3 {
   min-height: 100vh;
   display: grid;
   grid-template-columns: 15% 70% 15%;
-  grid-template-rows: 10% 10% 80%;
+  grid-template-rows: 10% 80% 10%;
   font-size: calc(10px + 2vmin);
   color: black;
 }
@@ -29,7 +29,7 @@ h3 {
   background-image: url('/markus-spiske-Fa0pTKuoDVY-unsplash.jpeg');
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: 100vw 100vh;
 }
 
 /* ? screen gif behind laptop but doesn't work responsive */
@@ -54,7 +54,7 @@ h3 {
   font-family: 'font1';
   font-weight: 100;
   grid-column: 1 / span 2;
-  grid-row: 3;
+  grid-row: 2;
   width: fit-content;
   display: flex;
   flex-direction: column;
@@ -94,7 +94,8 @@ h3 {
 }
 
 .scroll-down-icon img:hover {
-  filter: opacity(100%);
+    transition: 100ms;
+  filter: opacity(60%);
   width: 55px;
 }
 
