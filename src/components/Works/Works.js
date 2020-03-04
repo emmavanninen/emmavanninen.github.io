@@ -10,7 +10,7 @@ export default class Works extends Component {
             <h3>MY WORK</h3>
             <div className='card-deck'>
               <div className='card'>
-                <img src='./templol.jpg' className='card-img' />
+                <img src='./chatapp.jpg' className='card-img' />
                 <div className='card-body'>
                   <h5>Work X</h5>
                   <div>
@@ -25,7 +25,7 @@ export default class Works extends Component {
                 </div>
               </div>
               <div className='card'>
-                <img src='./templol.jpg' className='card-img' />
+                <img src='./dogdaycare.jpg' className='card-img' />
                 <div className='card-body'>
                   <h5>Work X</h5>
                   <div>
@@ -40,7 +40,7 @@ export default class Works extends Component {
                 </div>
               </div>
               <div className='card'>
-                <img src='./templol.jpg' className='card-img' />
+                <img src='./venuebooking.jpg' className='card-img' />
                 <div className='card-body'>
                   <h5>Work X</h5>
                   <div>
@@ -55,37 +55,7 @@ export default class Works extends Component {
                 </div>
               </div>
               <div className='card'>
-                <img src='./templol.jpg' className='card-img' />
-                <div className='card-body'>
-                  <h5>Work X</h5>
-                  <div>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    Maiores optio nisi ex nihil, accusamus repellat sequi. Ab,
-                    unde voluptates, ipsa id consectetur culpa, rerum ullam quia
-                    tempore cumque ratione in.
-                  </div>
-                  <a href='!#' target='_blank' className='work-link'>
-                    Check it out
-                  </a>
-                </div>
-              </div>
-              <div className='card'>
-                <img src='./templol.jpg' className='card-img' />
-                <div className='card-body'>
-                  <h5>Work X</h5>
-                  <div>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    Maiores optio nisi ex nihil, accusamus repellat sequi. Ab,
-                    unde voluptates, ipsa id consectetur culpa, rerum ullam quia
-                    tempore cumque ratione in.
-                  </div>
-                  <a href='!#' target='_blank' className='work-link'>
-                    Check it out
-                  </a>
-                </div>
-              </div>
-              <div className='card'>
-                <img src='./templol.jpg' className='card-img' />
+                <img src='./togowidget.jpg' className='card-img' />
                 <div className='card-body'>
                   <h5>Work X</h5>
                   <div>

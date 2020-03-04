@@ -75,7 +75,7 @@ h3 {
 }
 
 .subTitle span {
-  text-decoration:line-through;
+  text-decoration: line-through;
 }
 
 .scroll-down-icon {
@@ -89,14 +89,16 @@ h3 {
 }
 
 .scroll-down-icon img {
-  filter: opacity(90%);
-  width: 50px;
+  position: relative;
+  top: 0;
+  transition: top ease 200ms;
+  filter: opacity(70%);
+  width: 60px;
 }
 
 .scroll-down-icon img:hover {
-    transition: 100ms;
-  filter: opacity(60%);
-  width: 55px;
+  top: 6px;
+  filter: opacity(90%);
 }
 
 .section {

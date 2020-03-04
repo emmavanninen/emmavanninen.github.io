@@ -1,7 +1,12 @@
 import React, { Component } from 'react'
+import CV from './cv2020.pdf'
 import './Bio.css'
 
 export default class Bio extends Component {
+  onResumeClick() {
+    window.open(CV)
+  }
+
   render() {
     return (
       <>
@@ -24,18 +29,35 @@ export default class Bio extends Component {
                 doloremque, ad ut perferendis consequatur omnis eveniet
                 repellat.
               </p>
-              <div className='resume'>Resume</div>
+              <p>Check out my:</p>
               <br />
-              <div className='some'>
-                <a href='https://github.com/emmavanninen' target='_blank'>
-                  <img src='./github.png' alt='gh' />
-                </a>
-                <a
-                  href='https://www.linkedin.com/in/emmavanninen/'
-                  target='_blank'
-                >
-                  <img src='./linkedin.png' alt='li' />
-                </a>
+              <div className='icons'>
+                <div className='linkicon'>
+                  <a onClick={this.onResumeClick}>
+                    <img src='./resume.png' alt='resume' />
+                    <br />
+                    <p className='linkTitle'>Resume</p>
+                  </a>
+                </div>
+                <div className='linkicon'>
+                  {' '}
+                  <a href='https://github.com/emmavanninen' target='_blank'>
+                    <img src='./github.png' alt='gh' />
+                    <br />
+                    <p className='linkTitle'>GitHub</p>
+                  </a>
+                </div>
+                <div className='linkicon'>
+                  {' '}
+                  <a
+                    href='https://www.linkedin.com/in/emmavanninen/'
+                    target='_blank'
+                  >
+                    <img src='./linkedin.png' alt='li' />
+                    <br />
+                    <p className='linkTitle'>LinkedIn</p>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
