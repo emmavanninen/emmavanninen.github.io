@@ -29,10 +29,9 @@ export default class Works extends Component {
                   <h5>ChatAway</h5>
                   <h6>(Fullstack App)</h6>
                   <div>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    Maiores optio nisi ex nihil, accusamus repellat sequi. Ab,
-                    unde voluptates, ipsa id consectetur culpa, rerum ullam quia
-                    tempore cumque ratione in.
+                    Chat app - React, Context, CSS, Axios, NodeJS, Express, MongoDB
+                    <br/>
+                    Frontend is build from sratch using only React components and CSS.
                   </div>
                   <br />
                   <div>
