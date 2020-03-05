@@ -70,7 +70,7 @@ ul {
   padding: 0;
 }
 
-li{
+li {
   font-family: 'font1';
   font-size: 1.4em;
   height: 3em;
@@ -81,7 +81,7 @@ li a {
   text-decoration: none;
   text-transform: uppercase;
 }
-li a:hover{
+li a:hover {
   transition: 100ms;
   color: rgb(83, 96, 99);
   font-size: 1.1em;
@@ -91,3 +91,13 @@ li a:hover{
   font-size: 1.2em;
 }
 
+@media screen and (max-width: 900px) {
+  li {
+    font-size: 1em;
+    height: 3em;
+  }
+
+  .topA {
+    font-size: 0.8em;
+  }
+}
