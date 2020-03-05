@@ -7,7 +7,7 @@ a {
 }
 
 h3 {
-  font-size: 2em;
+  font-size: 4vmin;
   font-family: 'font1';
   font-weight: 100;
 }
@@ -15,14 +15,14 @@ h3 {
 .App-header {
   background-image: url('/maincomputerpic.png');
   background-repeat: no-repeat;
-  background-size: 50%, 100%;
+  background-size: 50%;
   background-position: right, center;
   background-attachment: fixed;
   min-height: 100vh;
   display: grid;
   grid-template-columns: 15% 70% 15%;
   grid-template-rows: 10% 80% 10%;
-  font-size: calc(10px + 2vmin);
+  font-size: 3.5vmin;
   color: black;
 }
 
@@ -185,11 +185,68 @@ h3 {
 
 @font-face {
   font-family: 'font1';
-  src: url('/fonts/aristotelicadisplayextralighttrial.ttf')
-    format('truetype');
+  src: url('/fonts/aristotelicadisplayextralighttrial.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'font2';
   src: url('/fonts/aerotis.otf') format('truetype');
+}
+
+@media screen and (max-width: 1300px) {
+  .App-header {
+    font-size: 3vmin;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .App-header {
+    font-size: 2.5vmin;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .App-header {
+    font-size: 3vmin;
+    background-size: 65%;
+    background-position: 100% 70%;
+  }
+
+  .headerTitles {
+    margin-left: 10vmin;
+    margin-top: 20vmin;
+    grid-row: 1;
+    width: fit-content;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .App-header {
+    font-size: 3vmin;
+    background-size: 90%;
+    background-position: 100% 75%;
+  }
+
+  .headerTitles {
+    font-size: 22px;
+    grid-column: 1 / span 3;
+    margin-top: 20vmin;
+    margin-left: 20vmin;
+    margin-right: 5vmin;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .App-header {
+    font-size: 3vmin;
+    background-size: 120%;
+    background-position: -15% 60%;
+    background-attachment: relative;
+  }
+
+  .headerTitles {
+    font-size: 18px;
+    margin-left: 80px;
+    margin-top: 100px;
+  }
 }

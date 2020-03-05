@@ -7,7 +7,8 @@ import './Nav.css'
 
 const useStyles = makeStyles({
   list: {
-    width: '20vw',
+    minWidth: '40vmin',
+    width: 'fit-content',
     height: '100vh',
     backgroundColor: 'rgba(234, 247, 247, 0.762)',
     backgroundImage: 'url(/binaryEmmaVanninen.png)',
