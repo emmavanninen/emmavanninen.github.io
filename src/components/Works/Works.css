@@ -95,25 +95,33 @@ a .ghicon:hover {
   cursor: zoom-in;
 }
 
-  /* z-index: 10;
-  transition: ease 500ms;
-  width: 90vw;
-  position: fixed;
-  right: 10%;
-  top: 10%;
-  width: 80%;
-  height: 80%; */
+@media screen and (max-width: 1050px) {
+  .card-img {
+    min-height: 20vmin;
+  }
 
+  .card-body {
+    font-size: 18px;
+    line-height: 2vh;
+    height: 61%;
+  }
 
-  /* this.state.noWebClickToggle
-                      ? {
-                          zIndex: '10',
-                          transition: 'ease 500ms',
-                          width: '90vw',
-                          position: 'fixed',
-                          right: '10%',
-                          top: '10%',
-                          width: '80%',
-                          height: '80%'
-                        }
-                      : '' */
+  .card:hover {
+    top: 0;
+    box-shadow: 2px 2px 15px rgba(174, 182, 182, 0.582),
+      -2px -2px 15px rgba(174, 182, 182, 0.582);
+  }
+}
+@media screen and (max-width: 450px) {
+  .card-img {
+    height: 100%;
+  }
+
+  .card-body {
+    font-size: 3.2vmin;
+  }
+
+  .card-body h6 {
+    font-size: 2.8vmin;
+  }
+}
