@@ -6,6 +6,7 @@ export default class Works extends Component {
     noWebClickToggle: false
   }
 
+  //? if no website to go to, open an image
   handleNoWebClick = () => {
     this.setState(prevState => {
       return {
@@ -29,12 +30,15 @@ export default class Works extends Component {
                   <h5>ChatAway</h5>
                   <h6>(Fullstack App)</h6>
                   <div>
-                    Chat app - React, Context, CSS, Axios, NodeJS, Express, MongoDB
-                    <br/>
-                    Frontend is build from sratch using only React components and CSS.
+                    Chat app - React, Context, CSS, Axios, NodeJS, Express,
+                    MongoDB, Moment, bcrypt, passport
+                    <br />
+                    <br />
+                    Frontend is build from a scratch using only React components
+                    and CSS.
                   </div>
                   <br />
-                  <div>
+                  <div className='checkGH'>
                     See the code:
                     <br />
                     {/* <a href='https://chataway.surge.sh/' target='_blank'>
@@ -61,13 +65,13 @@ export default class Works extends Component {
                   <h5>Dog Daycare</h5>
                   <h6>(Layout on React)</h6>
                   <div>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    Maiores optio nisi ex nihil, accusamus repellat sequi. Ab,
-                    unde voluptates, ipsa id consectetur culpa, rerum ullam quia
-                    tempore cumque ratione in.
+                    React, CSS
+                    <br />
+                    <br />
+                    Commercial website layout for a dog daycare.
                   </div>
                   <br />
-                  <div>
+                  <div className='checkGH'>
                     See the code:
                     <br />
                     <a
@@ -94,13 +98,14 @@ export default class Works extends Component {
                   <h5>Venue Booking Calendar</h5>
                   <h6>(Fullstack practice project)</h6>
                   <div>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    Maiores optio nisi ex nihil, accusamus repellat sequi. Ab,
-                    unde voluptates, ipsa id consectetur culpa, rerum ullam quia
-                    tempore cumque ratione in.
+                    Calendar App - React, CSS, Bootstrap, Axios, NodeJS,
+                    Express, MongoDB, bcrypt, passport
+                    <br />
+                    <br />
+                    React/Node project, calendar app for booking a venue space.
                   </div>
                   <br />
-                  <div>
+                  <div className='checkGH'>
                     See the code:
                     <br />
                     <a
@@ -117,34 +122,18 @@ export default class Works extends Component {
                 </div>
               </div>
               <div className='card'>
-                <img
-                  onClick={this.handleNoWebClick}
-                  src='./togowidget.jpg'
-                  className='card-img noweb'
-                  style={
-                    this.state.noWebClickToggle
-                      ? {
-                          zIndex: '10',
-                          transition: 'ease 500ms',
-                          width: '90vw',
-                          position: 'fixed',
-                          right: '20%',
-                          top: '15%',
-                          width: '60%',
-                          cursor: 'zoom-out'
-                        }
-                      : {}
-                  }
-                />
+                <a href='https://emmas-todolist.surge.sh/' target='_blank'>
+                  <img src='./togowidget.jpg' className='card-img' />
+                </a>
                 <div className='card-body'>
-                  <h5>Todo App</h5>
+                  <h5>Todo Widget</h5>
                   <h6>(Vanilla Javascript practice)</h6>
                   <div>
-                    Productivity Widget, made by using vanilla Javascript, CSS
-                    and HTML.
+                    Prototype of a productivity widget, made by using vanilla
+                    Javascript, CSS and HTML.
                   </div>
                   <br />
-                  <div>
+                  <div className='checkGH'>
                     See the code:
                     <br />
                     <a
