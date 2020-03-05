@@ -17,6 +17,10 @@
   width: 30vw;
 }
 
+.short-about span {
+  font-weight: 600;
+}
+
 .icons {
   height: fit-content;
   width: 20vw;
@@ -36,7 +40,7 @@
   flex-direction: column;
   justify-content: start;
   align-items: center;
-  filter: brightness(0.3);
+  filter: brightness(0.2) sepia(0.8);
 }
 
 a {
@@ -44,7 +48,7 @@ a {
 }
 
 .linkTitle {
-  color: black;
+  color: #22201f;
   visibility: hidden;
 }
 

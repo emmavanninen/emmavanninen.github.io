@@ -23,7 +23,7 @@ h3 {
   grid-template-columns: 15% 70% 15%;
   grid-template-rows: 10% 80% 10%;
   font-size: 3.5vmin;
-  color: black;
+  color: #22201f;
 }
 
 .background2 {
@@ -106,6 +106,7 @@ h3 {
 }
 
 .section {
+    color: #22201f;
   font-family: 'font1';
   min-height: 50vh;
   height: fit-content;
@@ -173,14 +174,6 @@ h3 {
 .section3 {
   height: fit-content;
   padding-bottom: 1vh;
-}
-
-.some img {
-  filter: brightness(0.1);
-  height: 4em;
-}
-.some img:hover {
-  filter: brightness(0.3);
 }
 
 @font-face {

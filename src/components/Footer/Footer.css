@@ -103,9 +103,15 @@ textarea:focus {
   align-items: center;
 }
 
+
 .some img {
+  filter: brightness(0.3) sepia(0.5);
   height: 3em;
 }
+.some img:hover {
+  filter: brightness(0.2) sepia(0.5);
+}
+
 
 @media screen and (max-width: 1050px) {
   .section4 {

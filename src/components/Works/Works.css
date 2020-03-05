@@ -72,16 +72,16 @@
 
 a {
   text-decoration-line: none;
-  color: black;
+  color: #22201f;
 }
 
 a .ghicon {
   height: 5vmin;
-  filter: brightness(0.3);
+  filter: brightness(0.3) sepia(0.5);
 }
 
 a .ghicon:hover {
-  filter: brightness(0.1);
+  filter: brightness(0.2);
 }
 
 .checkGH {
@@ -135,7 +135,7 @@ a .ghicon:hover {
   }
 
   a .ghicon:hover {
-    filter: brightness(0.3);
+    filter: brightness(0.3) sepia(0.5);
   }
 
   .checkGH {

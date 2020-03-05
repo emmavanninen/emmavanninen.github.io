@@ -16,17 +16,20 @@ export default class Bio extends Component {
             <div className='short-about'>
               <h3>WHO IS SHE THOUGH?</h3>
               <p>
-                Fullstack (MERN) Web Developer, originally from Helsinki,
-                Finland but currently located in Brooklyn, New York!
+                <span>Fullstack (MERN) Web Developer</span>
+                <br />
+                From Helsinki, Finland currently located in Brooklyn, New York
                 <br />
                 <br />
-                My skill set covers fullstack development, but I'm focused on
-                frontend and UI/UX, because with my creative background (as a
-                theatre actor and performing artist) that's were my passion in
-                coding lies.
+                I'm focused on <span>frontend</span> and <span>UI/UX</span>,
+                because with my creative background (as a theatre actor and
+                performing artist) that's were my passion lies. However my skill
+                set covers <span>fullstack</span> and I'm happy to dive in in
+                any coding challenge thrown at me, whether it's flexbox or API
+                related or anything in between.
                 <br />
                 <br />
-                Developer Skills:
+                <span>Developer Skills:</span>
                 <br />
                 JavaScript ES6, HTML5/CSS3, React, jQuery, Node.js, Express,
                 MongoDB, Git, UI/UX Principles, Bootstrap, Material-UI, Gimp2,
