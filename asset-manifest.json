@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.48a92e95.chunk.css",
-    "main.js": "/static/js/main.684f68a2.chunk.js",
-    "main.js.map": "/static/js/main.684f68a2.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.7b61e083.js",
-    "runtime-main.js.map": "/static/js/runtime-main.7b61e083.js.map",
-    "static/js/2.00c0a123.chunk.js": "/static/js/2.00c0a123.chunk.js",
-    "static/js/2.00c0a123.chunk.js.map": "/static/js/2.00c0a123.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.3a8f1b91d9fe62a81fc9ee6eb216a8a7.js": "/precache-manifest.3a8f1b91d9fe62a81fc9ee6eb216a8a7.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.48a92e95.chunk.css.map": "/static/css/main.48a92e95.chunk.css.map",
-    "static/js/2.00c0a123.chunk.js.LICENSE": "/static/js/2.00c0a123.chunk.js.LICENSE",
-    "static/media/cv2020.pdf": "/static/media/cv2020.f0748cfd.pdf"
+    "main.css": "/emmavanninen/emmavanninen.github.io/static/css/main.48a92e95.chunk.css",
+    "main.js": "/emmavanninen/emmavanninen.github.io/static/js/main.684f68a2.chunk.js",
+    "main.js.map": "/emmavanninen/emmavanninen.github.io/static/js/main.684f68a2.chunk.js.map",
+    "runtime-main.js": "/emmavanninen/emmavanninen.github.io/static/js/runtime-main.ec2c622c.js",
+    "runtime-main.js.map": "/emmavanninen/emmavanninen.github.io/static/js/runtime-main.ec2c622c.js.map",
+    "static/js/2.00c0a123.chunk.js": "/emmavanninen/emmavanninen.github.io/static/js/2.00c0a123.chunk.js",
+    "static/js/2.00c0a123.chunk.js.map": "/emmavanninen/emmavanninen.github.io/static/js/2.00c0a123.chunk.js.map",
+    "index.html": "/emmavanninen/emmavanninen.github.io/index.html",
+    "precache-manifest.0b0e47f352cae82ffeed9e2331506dfa.js": "/emmavanninen/emmavanninen.github.io/precache-manifest.0b0e47f352cae82ffeed9e2331506dfa.js",
+    "service-worker.js": "/emmavanninen/emmavanninen.github.io/service-worker.js",
+    "static/css/main.48a92e95.chunk.css.map": "/emmavanninen/emmavanninen.github.io/static/css/main.48a92e95.chunk.css.map",
+    "static/js/2.00c0a123.chunk.js.LICENSE": "/emmavanninen/emmavanninen.github.io/static/js/2.00c0a123.chunk.js.LICENSE",
+    "static/media/cv2020.pdf": "/emmavanninen/emmavanninen.github.io/static/media/cv2020.f0748cfd.pdf"
   },
   "entrypoints": [
-    "static/js/runtime-main.7b61e083.js",
+    "static/js/runtime-main.ec2c622c.js",
     "static/js/2.00c0a123.chunk.js",
     "static/css/main.48a92e95.chunk.css",
     "static/js/main.684f68a2.chunk.js"
