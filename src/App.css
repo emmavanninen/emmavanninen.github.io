@@ -2,8 +2,8 @@
   background-color: white;
 }
 
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
 
 h3 {
@@ -13,7 +13,7 @@ h3 {
 }
 
 .App-header {
-  background-image: url('/mainComputerPic.png');
+  background-image: url('/maincomputerpic.png');
   background-repeat: no-repeat;
   background-size: 50%, 100%;
   background-position: right, center;
@@ -30,7 +30,7 @@ h3 {
   z-index: -1;
   grid-column: 1 / span 3;
   grid-row: 1 / span 3;
-  background-image: url('/markus-spiske-Fa0pTKuoDVY-unsplash.jpeg');
+  background-image: url('/markusspiskea.jpeg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100vw 100vh;
@@ -113,7 +113,7 @@ h3 {
 
 .section1bg {
   height: 115vh;
-  background-image: url('/whoMe.png');
+  background-image: url('/whome.png');
   background-repeat: no-repeat;
   background-size: 60%;
   background-position: bottom left;
@@ -185,11 +185,11 @@ h3 {
 
 @font-face {
   font-family: 'font1';
-  src: url('/fonts/Aristotelica-Display-ExtraLight-trial.ttf')
+  src: url('/fonts/aristotelicadisplayextralighttrial.ttf')
     format('truetype');
 }
 
 @font-face {
   font-family: 'font2';
-  src: url('/fonts/Aerotis.otf') format('truetype');
+  src: url('/fonts/aerotis.otf') format('truetype');
 }

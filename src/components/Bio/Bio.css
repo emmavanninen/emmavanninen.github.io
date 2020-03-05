@@ -61,8 +61,3 @@ a {
   width: 6vmin;
   height: auto;
 }
-
-@font-face {
-  font-family: 'title';
-  src: url('/fonts/DJBHollyTyped2Much.ttf') format('truetype');
-}
