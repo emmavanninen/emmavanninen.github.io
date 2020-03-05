@@ -61,3 +61,44 @@ a {
   width: 6vmin;
   height: auto;
 }
+
+@media screen and (max-width: 850px) {
+  .aboutme {
+    padding-top: 0%;
+  }
+
+  .short-about {
+    padding: 3vmin;
+    background-color: rgba(251, 255, 255, 0.548);
+    width: 60vw;
+    border-radius: 5px;
+  }
+
+  .icons {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .linkTitle {
+    visibility: visible;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .icons {
+    width: 100%;
+    justify-content: space-evenly;
+  }
+
+  .linkicon a {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .short-about {
+    padding: 1vmin;
+    width: 85vw;
+    border-radius: 5px;
+  }
+}
