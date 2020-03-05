@@ -8,7 +8,7 @@
 }
 
 .aboutMe h3 {
-    width: 70%;
+  width: 70%;
 }
 
 .story-para {
@@ -38,4 +38,16 @@
 
 .readmore p:hover {
   font-weight: 300;
+}
+
+@media screen and (max-width: 450px) {
+  .aboutMe {
+    margin-top: 5vh;
+    margin-bottom: 10vh;
+  }
+
+  .story-para {
+    font-size: 3vmin;
+    width: 75vw;
+  }
 }
