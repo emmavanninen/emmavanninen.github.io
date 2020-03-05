@@ -104,8 +104,16 @@ li a:hover {
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-weight: 200;
 }
+
+.navicons {
+  padding-top: 1vmin;
+  width: 30%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
 .navContact a img {
-    padding-top: 1vmin;
   height: 2em;
   filter: brightness(0.3) sepia(0.8);
 }

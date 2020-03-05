@@ -74,10 +74,16 @@ export default function TempNav() {
           <br />
           tel. +1 347 556 6944
           <br />
-          <a href='https://www.linkedin.com/in/emmavanninen/' target='_blank'>
-            <img src='./linkedin.png' alt='li' />
-            <br />
-          </a>
+          <div className='navicons'>
+            <a href='https://www.linkedin.com/in/emmavanninen/' target='_blank'>
+              <img src='./linkedin.png' alt='li' />
+              <br />
+            </a>
+            <a href='https://github.com/emmavanninen' target='_blank'>
+              <img src='./github.png' alt='gh' />
+              <br />
+            </a>
+          </div>
         </div>
       </List>
     </div>
