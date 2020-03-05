@@ -35,17 +35,22 @@ export default function TempNav() {
   }
 
   const navList = side => (
-    <div
-      className={classes.list}
-      role='presentation'
-      onClick={toggleDrawer(side, false)}
-      onKeyDown={toggleDrawer(side, false)}
-    >
+    <div className={classes.list}>
       <List>
-        <div className='closeMenu'>
+        <div
+          className='closeMenu'
+          role='presentation'
+          onClick={toggleDrawer(side, false)}
+          onKeyDown={toggleDrawer(side, false)}
+        >
           <img src='./cancel.png' alt='close menu icon'></img>
         </div>
-        <ul className='nav-list'>
+        <ul
+          className='nav-list'
+          role='presentation'
+          onClick={toggleDrawer(side, false)}
+          onKeyDown={toggleDrawer(side, false)}
+        >
           <li>
             <AnchorLink href='#bioID'> Who am I?</AnchorLink>
           </li>
@@ -62,6 +67,18 @@ export default function TempNav() {
             <AnchorLink href='#headerID'> Back to the top</AnchorLink>
           </li>
         </ul>
+        <div className='navContact'>
+          Contact me:
+          <br />
+          email: emma.vanninen@gmail.com
+          <br />
+          tel. +1 347 556 6944
+          <br />
+          <a href='https://www.linkedin.com/in/emmavanninen/' target='_blank'>
+            <img src='./linkedin.png' alt='li' />
+            <br />
+          </a>
+        </div>
       </List>
     </div>
   )

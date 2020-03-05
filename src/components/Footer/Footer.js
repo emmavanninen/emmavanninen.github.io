@@ -55,9 +55,12 @@ export default class Footer extends Component {
           <div className='contact'>
             <p>Contact</p>
             <p>
-              Email: <span className='email'>emma.vanninen@gmail.com</span>
+              email: <span className='email'>emma.vanninen@gmail.com</span>
             </p>
             <p>tel. (+1) 437 5566944</p>
+            <br />
+            <br />
+            <p>&copy; 2020 Emma Vanninen</p>
           </div>
           <div className='some'>
             <a href='https://github.com/emmavanninen' target='_blank'>
