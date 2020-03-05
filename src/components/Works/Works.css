@@ -117,6 +117,15 @@ a .ghicon:hover {
       -2px -2px 15px rgba(174, 182, 182, 0.582);
   }
 }
+
+
+@media screen and (max-width: 700px) {
+
+ .card-body h6 {
+    font-size: 3vmin;
+  }
+}
+
 @media screen and (max-width: 450px) {
   .card-img {
     height: 100%;
@@ -125,11 +134,6 @@ a .ghicon:hover {
   .card-body {
     font-size: 3.2vmin;
   }
-
-  .card-body h6 {
-    font-size: 2.8vmin;
-  }
-
   a .ghicon {
     height: 8vmin;
   }
