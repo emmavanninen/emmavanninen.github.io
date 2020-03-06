@@ -136,9 +136,16 @@ a {
   }
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 370px) {
   .section1bg {
-    height: fit-content;
+    min-height: 170vh;
     background-size: 90%;
+    background-position: top;
   }
+
+
+  .bio {
+      height: fit-content;
+  }
+
 }
