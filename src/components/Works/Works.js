@@ -130,7 +130,7 @@ export default class Works extends Component {
                   <h6>(Vanilla Javascript practice)</h6>
                   <div>
                     Prototype of a productivity widget, made by using vanilla
-                    Javascript, Bootsrap CSS and HTML.
+                    Javascript, Bootstrap, CSS and HTML.
                   </div>
                   <br />
                   <div className='checkGH'>
