@@ -68,7 +68,7 @@ export default class Works extends Component {
                     React, CSS
                     <br />
                     <br />
-                    Commercial website layout for a dog daycare.
+                    Commercial website React layout for a dog daycare.
                   </div>
                   <br />
                   <div className='checkGH'>
@@ -130,7 +130,7 @@ export default class Works extends Component {
                   <h6>(Vanilla Javascript practice)</h6>
                   <div>
                     Prototype of a productivity widget, made by using vanilla
-                    Javascript, CSS and HTML.
+                    Javascript, Bootsrap CSS and HTML.
                   </div>
                   <br />
                   <div className='checkGH'>
