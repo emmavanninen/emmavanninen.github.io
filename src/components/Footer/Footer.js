@@ -19,6 +19,8 @@ export default class Footer extends Component {
   render() {
     return (
       <>
+
+      {/* //? contact by email, coming soon.. */}
         <section className='section4' id='footerID'>
           {/* <form className='emailForm' onSubmit={this.sendEmail}>
             <h5>Email me</h5>

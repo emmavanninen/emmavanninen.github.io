@@ -93,11 +93,13 @@ li a:hover {
 
 .navContact {
   margin-top: 15vh;
-  margin-left: 3vmin;
+  margin-left: 10%;
+  margin-right: 5%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  width: 100%;
+  flex-wrap: wrap;
+  width: 75%;
   line-height: 2em;
   font-size: 1em;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
@@ -107,7 +109,7 @@ li a:hover {
 
 .navicons {
   padding-top: 1vmin;
-  width: 30%;
+  width: 50%;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -128,6 +130,12 @@ li a:hover {
   }
 
   .topA {
+    font-size: 0.8em;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .navContact {
     font-size: 0.8em;
   }
 }

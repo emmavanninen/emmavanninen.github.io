@@ -11,7 +11,7 @@ export default class Bio extends Component {
     return (
       <>
         <section className='section section1bg'>
-          <div className='section1' id='bioID'></div>
+          <div className='section1 biosection' id='bioID'></div>
           <div className='bio'>
             <div className='short-about'>
               <h3>WHO IS SHE THOUGH?</h3>

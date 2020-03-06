@@ -106,19 +106,10 @@ h3 {
 }
 
 .section {
-    color: #22201f;
+  color: #22201f;
   font-family: 'font1';
   min-height: 50vh;
-  height: fit-content;
-}
-
-.section1bg {
-  height: 115vh;
-  background-image: url('/whome.png');
-  background-repeat: no-repeat;
-  background-size: 60%;
-  background-position: bottom left;
-  background-attachment: fixed;
+  /* height: fit-content; */
 }
 
 .section1 {
@@ -257,6 +248,8 @@ h3 {
 
 @media screen and (max-width: 350px) {
   .headerTitles {
-    font-size: 11px;
+    margin-top: 21vh;
+    margin-left: 50px;
+    font-size: 18px;
   }
 }
