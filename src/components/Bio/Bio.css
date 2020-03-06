@@ -1,7 +1,8 @@
 .section1bg {
+  height: 120vh;
   background-image: url('/whome.png');
   background-repeat: no-repeat;
-  background-size: 60%;
+  background-size: 57%;
   background-position: bottom left;
   background-attachment: fixed;
 }
@@ -19,12 +20,12 @@
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  height: 1000px;
 }
 
 .short-about {
   height: 100%;
-  width: 30vw;
+  width: 33vw;
+  margin-right: 2vmin;
 }
 
 .short-about span {
