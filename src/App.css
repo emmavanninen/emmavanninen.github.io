@@ -246,10 +246,17 @@ h3 {
   }
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 380px) {
   .headerTitles {
     margin-top: 21vh;
     margin-left: 50px;
     font-size: 18px;
+  }
+
+  .App-header {
+    min-height: 50vh;
+    height: 97vh;
+    background-size: 80%;
+    background-position: 100% 70%;
   }
 }

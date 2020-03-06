@@ -135,3 +135,10 @@ a {
     text-align: center;
   }
 }
+
+@media screen and (max-width: 350px) {
+  .section1bg {
+    height: fit-content;
+    background-size: 90%;
+  }
+}
