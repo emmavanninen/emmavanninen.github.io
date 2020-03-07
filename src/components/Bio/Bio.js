@@ -12,8 +12,8 @@ export default class Bio extends Component {
       <>
         <section className='section section1bg'>
           <div className='section1 biosection'></div>
-          <div className='bio' id='bioID'>
-            <div className='short-about'>
+          <div className='bio'>
+            <div className='short-about' id='bioID'>
               <h3>WHO IS SHE THOUGH?</h3>
               <p>
                 <h5>Full Stack (MERN) Web Developer</h5>
@@ -21,9 +21,10 @@ export default class Bio extends Component {
                 <br />
                 <br />
                 My developer skill set covers
-                <span> Full Stack Javascript</span> and I've build fully working
-                <span> APIs</span> with <span> NodeJS</span> and <span> MongoDB</span>.
-                However my true passion lies in <span> Frontend</span> and
+                <span> Full Stack Javascript</span> and I've build fully-functioning
+                <span> APIs</span> with <span> NodeJS</span> and{' '}
+                <span> MongoDB</span>. However my true passion lies in{' '}
+                <span> Frontend</span> and
                 <span> UI/UX</span>. With my creative background (as a theatre
                 actor and performing artist) it feels the most natural to me and
                 as a coder I'm inspired by design and style. I'm fluent in
