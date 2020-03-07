@@ -13,9 +13,9 @@ export default class AboutMe extends Component {
     this.setState(prevState => {
       return {
         toggleReadMore: !prevState.toggleReadMore,
-        height1: 'fit-content',
+        height1: 'max-content',
         overflow: 'visible',
-        height2: 'fit-content'
+        height2: 'max-content'
       }
     })
     console.log(this.state.toggleReadMore)

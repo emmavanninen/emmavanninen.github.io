@@ -11,8 +11,8 @@ export default class Bio extends Component {
     return (
       <>
         <section className='section section1bg'>
-          <div className='section1 biosection' id='bioID'></div>
-          <div className='bio'>
+          <div className='section1 biosection'></div>
+                <div className='bio' id='bioID'>
             <div className='short-about'>
               <h3>WHO IS SHE THOUGH?</h3>
               <p>
@@ -21,18 +21,20 @@ export default class Bio extends Component {
                 From Helsinki, Finland currently located in Brooklyn, New York
                 <br />
                 <br />
-                My work is mostly focused on <span>frontend</span> and <span>UI/UX</span>. With my creative background (as a theatre actor and
-                performing artist) it feels the most natural to me and it's were my passion lies. However my skill
-                set covers <span>fullstack</span> and I'm happy to dive in in
-                any coding challenge thrown at me, whether it's flexbox or API
-                related or anything in between.
+                My work is mostly focused on <span>frontend</span> and{' '}
+                <span>UI/UX</span>. With my creative background (as a theatre
+                actor and performing artist) it feels the most natural to me and
+                it's were my passion lies. However my skill set covers{' '}
+                <span>fullstack</span> and I'm happy to dive in in any coding
+                challenge thrown at me, whether it's flexbox or API related or
+                anything in between.
                 <br />
                 <br />
                 <span>Developer Skills:</span>
                 <br />
                 JavaScript ES6, HTML5/CSS3, React, jQuery, Node.js, Express,
-                MongoDB, Redux, Git, UI/UX Principles, Bootstrap, Material-UI, Gimp2,
-                Inkscape, Adobe Photoshop, Adobe Illustrator
+                MongoDB, Redux, Git, UI/UX Principles, Bootstrap, Material-UI,
+                Gimp2, Inkscape, Adobe Photoshop, Adobe Illustrator
               </p>
               <p>Check out my:</p>
               <br />
