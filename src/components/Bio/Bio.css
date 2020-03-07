@@ -144,35 +144,25 @@ a {
     text-align: center;
   }
 }
-/* 
-@media only screen and (max-width: 400) {
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
+  h3 {
+    font-size: 6vmin;
+  }
+
   .section1bg {
-    min-height: 170vh;
-    height: 170vh;
-    background-size: 90%;
+    min-height: 200vh;
+    background-attachment: local;
+  }
+
+  .short-about h5 {
+    font-weight: 400;
   }
 
   .short-about {
-    width: 35vw;
-    border-radius: 5px;
-    line-height: 3.4vmin;
+    margin: 0;
+    margin-left: 6vmin;
+    width: 75vw;
+    line-height: 5.5vmin;
   }
-} */
-
-
-@media only screen 
-and (min-device-width : 375px) 
-and (max-device-width : 667px) {
-  .section1bg {
-    min-height: 170vh;
-    height: 170vh;
-    background-size: 90%;
-  }
-
-    .short-about {
-    width: 35vw;
-    border-radius: 5px;
-    line-height: 3.4vmin;
-  }
-
 }

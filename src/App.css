@@ -246,7 +246,7 @@ h3 {
   }
 }
 
-@media screen and (max-width: 380px) {
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
   .headerTitles {
     margin-top: 21vh;
     margin-left: 50px;
@@ -258,5 +258,6 @@ h3 {
     height: 97vh;
     background-size: 80%;
     background-position: 100% 70%;
+    background-attachment: local;
   }
 }
