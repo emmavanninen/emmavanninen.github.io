@@ -21,15 +21,16 @@ export default class Bio extends Component {
                 <br />
                 <br />
                 My developer skill set covers
-                <span> Full Stack Javascript</span> and I've build fully-functioning
+                <span> Full Stack Javascript</span> and I've build
+                fully-functioning
                 <span> APIs</span> with <span> NodeJS</span> and{' '}
                 <span> MongoDB</span>. However my true passion lies in{' '}
                 <span> Frontend</span> and
-                <span> UI/UX</span>. With my creative background (as a theatre
-                actor and performing artist) it feels the most natural to me and
-                as a coder I'm inspired by design and style. I'm fluent in
+                <span> UI/UX</span>. With my creative background I'm inspired by
+                design and style and as a theatre actor and performing artist
+                creating something visual is second nature to me. I'm fluent in
                 <span> Boostrap</span> and <span> Material-UI</span> and I've
-                seen some very pretty templates out there, but there's just
+                seen very pretty templates out there, but there's just
                 something about building a layout from a scratch with pure{' '}
                 <span> CSS</span> and <span> Javascript</span> (or{' '}
                 <span> React</span>).
