@@ -12,8 +12,9 @@ export default class Bio extends Component {
       <>
         <section className='section section1bg'>
           <div className='section1 biosection'></div>
-          <div className='bio'>
-            <div className='short-about' id='bioID'>
+          <div className='bio' id='bioID'>
+            <div id='bioID' style={{ height: '20vh' }}></div>
+            <div className='short-about'>
               <h3>WHO IS SHE THOUGH?</h3>
               <p>
                 <h5>Full Stack (MERN) Web Developer</h5>
@@ -30,8 +31,8 @@ export default class Bio extends Component {
                 design and style and as a theatre actor and performing artist
                 creating something visual is second nature to me. I'm fluent in
                 <span> Boostrap</span> and <span> Material-UI</span> and I've
-                seen very pretty templates out there, but there's just
-                something about building a layout from a scratch with pure{' '}
+                seen very pretty templates out there, but there's just something
+                about building a layout from a scratch with pure{' '}
                 <span> CSS</span> and <span> Javascript</span> (or{' '}
                 <span> React</span>).
                 <br />
