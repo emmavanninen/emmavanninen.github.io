@@ -19,8 +19,7 @@ export default class Footer extends Component {
   render() {
     return (
       <>
-
-      {/* //? contact by email, coming soon.. */}
+        {/* //? contact by email, coming soon.. */}
         <section className='section4' id='footerID'>
           {/* <form className='emailForm' onSubmit={this.sendEmail}>
             <h5>Email me</h5>
@@ -59,7 +58,10 @@ export default class Footer extends Component {
             <p>
               email: <span className='email'>emma.vanninen@gmail.com</span>
             </p>
-            <p>tel. (+1) 347 5566944</p>
+            <p style={{ margin: '0' }}>TEMPORARY tel. (+358) 50 363 0087</p>
+            <p style={{ textDecorationLine: 'line-through', margin: '0' }}>
+              tel. (+1) 347 5566944
+            </p>
             <br />
             <br />
             <p>&copy; 2020 Emma Vanninen</p>

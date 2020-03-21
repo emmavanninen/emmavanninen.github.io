@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import CV from './cv2020.pdf'
+import CV from './tempTelcv2020.pdf'
 import './Bio.css'
 
 export default class Bio extends Component {

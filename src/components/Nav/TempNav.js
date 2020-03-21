@@ -72,7 +72,11 @@ export default function TempNav() {
           <br />
           email: emma.vanninen@gmail.com
           <br />
-          tel. +1 347 556 6944
+          <p style={{ margin: '0' }}>TEMPORARY tel. (+358) 50 363 0087</p>
+          <p style={{ textDecorationLine: 'line-through', margin: '0' }}>
+            tel. (+1) 347 5566944
+          </p>
+          <br />
           <br />
           <div className='navicons'>
             <a href='https://www.linkedin.com/in/emmavanninen/' target='_blank'>
