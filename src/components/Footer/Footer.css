@@ -127,24 +127,38 @@ textarea:focus {
 
 @media screen and (max-width: 450px) {
   .section4 {
-    min-height: 15vh;
+    flex-direction: column;
+    justify-content: space-around;
+    /* min-height: 15vh; */
+    height: 50vh;
   }
 
   .contact {
+    text-align: center;
+    margin-top: 10vmin;
+    margin-bottom: 5vmin;
+    height: 100%;
     font-size: 2.5vmin;
   }
 
   .some img {
+    margin-top: 8vmin;
     height: 2em;
   }
 }
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
   .contact {
+    text-align: center;
+    margin-top: 10vmin;
+    margin-bottom: 5vmin;
+    height: 100%;
     font-size: 3.3vmin;
   }
 
   .section4 {
-    padding-bottom: 10vmin;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 50vh;
   }
 }

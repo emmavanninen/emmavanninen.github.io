@@ -3,13 +3,13 @@ import './Footer.css'
 
 export default class Footer extends Component {
   state = {
-    emailToggle: false
+    emailToggle: false,
   }
 
   handleEmailToggle = () => {
-    this.setState(prevState => {
+    this.setState((prevState) => {
       return {
-        emailToggle: !prevState.emailToggle
+        emailToggle: !prevState.emailToggle,
       }
     })
   }
@@ -65,6 +65,7 @@ export default class Footer extends Component {
             <br />
             <br />
             <p>&copy; 2020 Emma Vanninen</p>
+            <p>All Rights Reserved.</p>
           </div>
           <div className='some'>
             <a href='https://github.com/emmavanninen' target='_blank'>
