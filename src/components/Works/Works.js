@@ -1,16 +1,25 @@
 import React, { Component } from 'react'
 import './Works.css'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 export default class Works extends Component {
   state = {
-    noWebClickToggle: false
+    noWebClickToggle: false,
+  }
+
+  componentDidMount() {
+    AOS.init({
+      duration: 1500,
+      disable: 'mobile',
+    })
   }
 
   //? if no website to go to, open an image
   handleNoWebClick = () => {
-    this.setState(prevState => {
+    this.setState((prevState) => {
       return {
-        noWebClickToggle: !prevState.noWebClickToggle
+        noWebClickToggle: !prevState.noWebClickToggle,
       }
     })
   }
@@ -21,14 +30,53 @@ export default class Works extends Component {
         <div className='section2' id='worksID'>
           <div className='works-main'>
             <h3>MY WORK</h3>
-            <div className='card-deck'>
+            <div
+              className='card-deck'
+              data-aos='fade-left'
+              data-aos-delay='150'
+            >
+              <div className='card'>
+                <a href='https://devexperiment.surge.sh/' target='_blank'>
+                  <img src='./audiovisualizer.png' className='card-img' />
+                </a>
+                <div className='card-body'>
+                  <h5>Audio Visualizer</h5>
+                  <h6>
+                    ( Frontend deployed -
+                    <br />
+                    backend under construction )
+                  </h6>
+                  <div>
+                    React, p<span>5</span>.sound
+                    <br />
+                    <br />
+                    Audio frequency and amplitude visualizer using a built-in song
+                    or a microphone.
+                  </div>
+                  <br />
+                  <div className='checkGH'>
+                    See the code:
+                    <br />
+                    <a
+                      href='https://github.com/emmavanninen/eclair-frontend'
+                      target='_blank'
+                    >
+                      <img
+                        className='ghicon'
+                        src='./github.png'
+                        alt='website icon'
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
               <div className='card'>
                 <a href='https://chataway.surge.sh/' target='_blank'>
                   <img src='./chatapp.jpg' className='card-img' />
                 </a>
                 <div className='card-body'>
                   <h5>ChatAway</h5>
-                  <h6>(Fullstack App)</h6>
+                  <h6>( Fullstack App )</h6>
                   <div>
                     Chat app - React, Context, CSS, Axios, NodeJS, Express,
                     MongoDB, Moment, bcrypt, passport
@@ -63,7 +111,7 @@ export default class Works extends Component {
                 </a>
                 <div className='card-body'>
                   <h5>Dog Daycare</h5>
-                  <h6>(Layout on React)</h6>
+                  <h6>( Layout on React )</h6>
                   <div>
                     React, CSS
                     <br />
@@ -96,7 +144,7 @@ export default class Works extends Component {
                 </a>
                 <div className='card-body'>
                   <h5>Venue Booking Calendar</h5>
-                  <h6>(Fullstack practice project)</h6>
+                  <h6>( Fullstack practice project )</h6>
                   <div>
                     Calendar App - React, CSS, Bootstrap, Axios, NodeJS,
                     Express, MongoDB, bcrypt, passport
@@ -127,7 +175,7 @@ export default class Works extends Component {
                 </a>
                 <div className='card-body'>
                   <h5>Todo Widget</h5>
-                  <h6>(Vanilla Javascript practice)</h6>
+                  <h6>( Vanilla Javascript practice )</h6>
                   <div>
                     Prototype of a productivity widget, made by using vanilla
                     Javascript, Bootstrap, CSS and HTML.

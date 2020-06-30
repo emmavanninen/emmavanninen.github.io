@@ -10,7 +10,7 @@ export default class Bio extends Component {
   render() {
     return (
       <>
-        <section className='section section1bg'>
+        <section className='section section1bg' style={{minHeight: '145vh'}}>
           <div className='section1 biosection'></div>
           <div className='bio' id='bioID'>
             <div id='bioID' style={{ height: '20vh' }}></div>
