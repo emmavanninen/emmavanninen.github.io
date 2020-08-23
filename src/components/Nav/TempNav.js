@@ -13,17 +13,17 @@ const useStyles = makeStyles({
     backgroundColor: 'rgba(234, 247, 247, 0.762)',
     backgroundImage: 'url(/binaryEmmaVanninen.png)',
     backgroundRepeat: 'repeat',
-    backgroundSize: '100%'
-  }
+    backgroundSize: '100%',
+  },
 })
 
 export default function TempNav() {
   const classes = useStyles()
   const [state, setState] = React.useState({
-    left: false
+    left: false,
   })
 
-  const toggleDrawer = (side, open) => event => {
+  const toggleDrawer = (side, open) => (event) => {
     if (
       event.type === 'keydown' &&
       (event.key === 'Tab' || event.key === 'Shift')
@@ -34,7 +34,7 @@ export default function TempNav() {
     setState({ ...state, [side]: open })
   }
 
-  const navList = side => (
+  const navList = (side) => (
     <div className={classes.list}>
       <List>
         <div
@@ -68,18 +68,27 @@ export default function TempNav() {
           </li>
         </ul>
         <div className='navContact'>
-          Contact me:
-          <br />
-          email: emma.vanninen@gmail.com
-          <br />
-          <p style={{ margin: '0' }}>TEMPORARY tel.
-          <br/>
-          (+358) 50 363 8807</p>
+                  <div className='contactMe navicons1'>
+            Contact me:
+            <br />
+            <p>
+              <img src='./email.png' alt='li' />emma.vanninen@gmail.com
+            </p>
+            <p>
+              <img src='./phone.png' alt='li' />
+              (+358) 50 363 8807
+            </p>
+          </div>
+          {/* <p style={{ margin: '0' }}>
+            TEMPORARY tel.
+            <br />
+            (+358) 50 363 8807
+          </p>
           <p style={{ textDecorationLine: 'line-through', margin: '0' }}>
             tel. (+1) 347 5566944
-          </p>
+          </p> */}
           <br />
-          <div className='navicons'>
+          <div className='navicons2'>
             <a href='https://www.linkedin.com/in/emmavanninen/' target='_blank'>
               <img src='./linkedin.png' alt='li' />
               <br />

@@ -64,8 +64,8 @@ export default class Footer extends Component {
             </p>
             <br />
             <br />
-            <p>&copy; 2020 Emma Vanninen</p>
-            <p>All Rights Reserved.</p>
+            <p className='copyright'>&copy; 2020 Emma Vanninen</p>
+            <p className='copyright'>All Rights Reserved.</p>
           </div>
           <div className='some'>
             <a href='https://github.com/emmavanninen' target='_blank'>
